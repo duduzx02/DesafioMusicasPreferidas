@@ -13,27 +13,23 @@ public class Main {
         Podcast flow = new Podcast();
         flow.setTitulo("Flow");
         flow.setApresentador("Igor 3k");
-        flow.setDesricao("Entrevista todo mundo!");
+        flow.setDescricao("Entrevista todo mundo!");
 
         for (int i = 0; i < 2500; i++) {
             SaudadeDeRosa.curte();
             SaudadeDeRosa.reproduz();
         }
 
-        for (int i = 0; i < 26; i++) {
+        for (int i = 0; i < 25; i++) {
             flow.curte();
             flow.reproduz();
         }
-
 
         System.out.println(SaudadeDeRosa.getTitulo() + " tem um total de " + SaudadeDeRosa.getCurtidas() + " Curtidas");
         System.out.println(SaudadeDeRosa.getTitulo() + " tem um total de " + SaudadeDeRosa.getTotalDeReproducao() + " reprocu" +
                 "çãoes");
         System.out.println(flow.getTitulo() + " tem um total de " + flow.getCurtidas() + " Curtidas");
         System.out.println(flow.getTitulo() + " tem um total de " + flow.getTotalDeReproducao() + " reprocuçãoes");
-
-        System.out.println(SaudadeDeRosa.getClassificacao());
-        System.out.println(flow.getClassificacao());
 
         preferida.inclui(SaudadeDeRosa);
         preferida.inclui(flow);

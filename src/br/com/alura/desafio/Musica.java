@@ -3,7 +3,6 @@ package br.com.alura.desafio;
 public class Musica extends Audio{
 
     private String album;
-
     private String cantor;
     private String genero;
 

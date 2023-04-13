@@ -2,7 +2,7 @@ package br.com.alura.desafio;
 
 public class Podcast extends Audio{
     private String apresentador;
-    private String desricao;
+    private String descricao;
 
     public String getApresentador() {
         return apresentador;
@@ -12,12 +12,12 @@ public class Podcast extends Audio{
         this.apresentador = apresentador;
     }
 
-    public String getDesricao() {
-        return desricao;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setDesricao(String desricao) {
-        this.desricao = desricao;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     @Override

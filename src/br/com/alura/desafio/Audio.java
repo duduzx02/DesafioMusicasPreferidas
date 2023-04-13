@@ -27,24 +27,12 @@ public class Audio {
         return totalDeReproducao;
     }
 
-    public void setTotalDeReproducao(int totalDeReproducao) {
-        this.totalDeReproducao = totalDeReproducao;
-    }
-
     public int getCurtidas() {
         return curtidas;
     }
 
-    public void setCurtidas(int curtidas) {
-        this.curtidas = curtidas;
-    }
-
     public int getClassificacao() {
         return classificacao;
-    }
-
-    public int setClassificacao(int classificacao) {
-        this.classificacao = classificacao;
     }
 
     public void curte(){
